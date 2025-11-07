@@ -1,3 +1,2 @@
 
-
-import sys
+  def __len__(self):
