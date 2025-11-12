@@ -130,5 +130,100 @@ list2[1] = 1000
 print(list2)
 # insert() : add items
 list2.insert(2,"world"); print(list2)
+# append()
+list2.append("chokolate");print(list2)
+# extend()
+list2.extend(list1);print(list2)
+# remove()
+list2.remove("chokolate");print(list2)
+# pop()
+list2.pop(1);print(list2)
+# del
+del list2[3]; print(list2)
+# del list1;print(list1) give error becouse list doesnt exist
+
+# clear()
+list1.clear(); print(list1)
+# list comprehension
+list3 = [12, 3.55, "PYTHON"];[print(x) for x in list3]
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [x for x in fruits if "a" in x]
+print(newlist)
+
+newlist = [x.upper() for x in fruits]
+print(newlist)
+
+newlist = ['hello' for x in fruits]
+print(newlist)
+
+newlist = [x if x != "banana" else "orange" for x in fruits]
+print(newlist)
+
+# sort()
+list4 = [ 4,6,8,9,3,2,5,1]
+list4.sort(); print(list4);
+list4.sort(reverse=True)
+print(list4)
+
+# Reverse Order 
+list5 = [44, 66, 45, 77, 88,44,44,2]
+list5.reverse(); print(list5)
+
+# copy()
+mylist1 = list2.copy(); print(mylist1)
+mylist2 = list(list5); print(mylist2)
+mylist3 = list3[:]; print(mylist3)
+
+# count method
+x = list5.count(44); print(x)
 
 
+# tuple
+tup = ("apple", "banana", "cherry", "apple", "cherry")
+print(tup);print(len(tup))
+# tuple with one item
+tup1 = ("Hello",);print(type(tup1)) #this is tuple
+tup2 = ("Hello");print(type(tup2)) # this is string
+
+tup3 = tuple((123,345,567,789)); print(tup3)
+# access elemnet
+print(tup3[3])
+# change tuple to list & then list to tuple
+y = list(tup3); y[2] = "oyo"
+x = tuple(y); print(x)
+
+# add item
+y.append(33333); print(y)
+
+# add tuple to tuple
+z = ("Hello",)
+tup3 += z ; print(tup3)
+
+# remove item but tuple unchangeable so convert into list
+thistup = (23, 45, "hollo", True, False)
+y1 = list(thistup); y1.remove("hollo");
+thistup  = tuple(y1)
+print(thistup)
+
+# del thistup; print(thistup) give error tup delete
+# unpack tuple
+fruits = ("apple", "banana", "cherry")
+(green, yellow, red) = fruits
+print(green)
+print(yellow)
+print(red)
+
+# using asterik *: Assign the rest of the values as a list called "red":
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+(green, yellow, *red) = fruits
+print(green)
+print(yellow)
+print(red)
+
+# join tuple
+tuple1 = tup1 + fruits; print(tuple1)
+
+# count()
+thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+x = thistuple.count(5); print(x)

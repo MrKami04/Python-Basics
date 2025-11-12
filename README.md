@@ -70,3 +70,31 @@ print(x is y)   # True (same object in memory)```
 --> access list item by indexing
 --> change list items by indexing
 --> insert items : insert() function
+--> add items by append() function at the end of list
+--> extend list: to append element from other list to current list then use extend () function and also element will be add end of list.
+--> remove list items : remove(), remove spcefic item
+--> remove spcefic index use pop() method and if dont give any index the pop() remove last item.
+--> del also remove spcefiy index and also if not give any index then it delete completly list
+--> clear(): empties the list but list still remain but no content in 
+--> list comprehension offers short syntex for looping through list
+--> comprehenesion syntax: newlist = [expression for item in iterable if condition == True]
+-->sort() list : by default ascending order if sort decending order argument sort(reverse = True)
+--> Reverse Order of the list but not in sorting order 
+--> copy list: use copy() method and other way is list() method
+--> also make copy by using slice method
+--> join list by use these methods: plus(+) operator, extend(), append() 
+--> count() list use count() method
+
+-->tuple in python:store miltiple values in single variabel
+--> tuple write in round braket ()
+--> tuple are ordered and unchengeable and also allow duplicate
+--> check length of tuple use len() fucntion
+--> create tuple with one item as tup1 = ("hello",) is tuple but tup2 = ("hello") is not tuple
+-->tuple() constractor : use to create tuple
+--> access tuple alement by indexing values
+--> change tuple values : once create tuple the we can't change its values but ifwe want to change then Convert the tuple into a list to be able to change it:
+--> add item use append() function
+--> remove item but tuple unchangeable now we convert into list fisrt
+--> del use delete tuple completely
+--> join tuple by plus operator + and multiply tuple by * 
+--> count() tuple 
