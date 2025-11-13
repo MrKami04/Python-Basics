@@ -98,3 +98,44 @@ print(x is y)   # True (same object in memory)```
 --> del use delete tuple completely
 --> join tuple by plus operator + and multiply tuple by * 
 --> count() tuple 
+
+
+--> Sets in python: to store multiple values in single variable with different data types
+--> set create with curly brackets {}.
+--> set a collection of which is unordered, unchangeable and unindexed and duplicates are not allowed.
+--> [True & 1] and [False & 0 ] are consider same value so remove duplicate in set
+--> set() constractor to create set
+--> once create set we can't change set but we add & remove items from set
+--> we can't access item from set with indexing becuase set are unordered.
+-->  add item one use : add() function
+--> add item from another set to current set use : update() method
+--> also we add tuple , list or dictionary by update() function
+--> remove item use remove(), discard(), pop() function but its differet benefits to use.
+--> clear() use to empties the set not completely delete.
+--> but del use to completely delete set
+--> union()  or '|' to use join two set with all items both sets or multiple sets
+--> also join set and tuple with union()
+--> intersection(): keep only duplicares value ir same values in both sets
+--> intersection_update(): use to duplicte but change original set
+--> difference() or ' - ':  return only first item present not in second set
+--> symmetric_difference(): give only items are not present in both set
+--> frozenset(): immuteable means you cannot add or remove elements.
+--> frozenset functions: copy(), difference()[-], intersection()[&], isdisjoint(), issubset()[<= / <], issuperset()[>= / >], symmetric_difference()[ ^ ], union()[ | ]
+
+
+--> dictionary: to store data in key:value pair
+--> dictionary are ordered, changeable and not allowed duplicates
+--> dict() constractor to create dictionary
+--> access dict item by usin key values in square bracket or get() fucntion
+--> keys(): give all key values of dict
+--> values():  give all values of dict
+--> item(): give each item in a dictionary, as tuples in a list.
+--> change item
+--> update(): dictionary
+--> remove items: pop() fucntion, popitem(), del (remov item and also delete completely dictionary)
+--> clear(): empties the dictionary
+--> copy() method
+--> nested dictionary: dictionary in dict
+--> Access Items in Nested Dictionaries
+
+

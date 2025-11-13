@@ -227,3 +227,101 @@ tuple1 = tup1 + fruits; print(tuple1)
 # count()
 thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
 x = thistuple.count(5); print(x)
+
+
+# Sets in python
+set1 = {"apple", "banana", "cherry"};print(set1);print(type(set1))
+
+# duplicate remove and unordered and ( [True & 1] and [False & 0] are consider same value) 
+set2 = {12, 22, 33, 12,False, 0, 34,34, 45,1, True, 1, 1,1};print(set2);print(len(set2))
+# set() constractor
+set3 = set(("Hello", 123, 345, 567)); print(set3); print(type(set3))
+# add() item
+set3.add("python coder"); print(set3)
+# update() use to add set from other set
+set3.update(set1); print(set3)
+# add list into set as
+l1 = [12, 23.4, True, "string"]; set1.update(l1); print(set1)
+# remove() if item not exist give error
+set1.remove("banana"); print(set1)
+# discard() if item nit exist then not give error
+print(set1); set1.discard("banana"); print(set1)
+# pop() but pop() remove in set any random item because pop() take index but set unindexed.
+set1.pop(); print(set1)
+# clear() : give empty set()
+set1.clear(); print(set1)
+# del function
+# del set1; print(set1)
+
+# 'union() - allow set tuple or '| - (allow only set)'
+set4 = set2.union(set3); print(set4)
+set4 = set2 | set3; print(set4)
+# join set and tuple
+tupl1 = tuple((2003, 3004, 5006, 1001))
+set5 = set4.union(tupl1); print(set5)
+# intersection() or '&- allow only for sets
+set6 = {"apple", "banana", "cherry"};set7 = {"google", "microsoft", "apple"}
+set8 = set6.intersection(set7); print(set8)
+set8 = set6 & set7; print(set8)
+# intersection_update()
+set6.intersection_update(set7); print(set6)
+# difference() or ' - ' 
+set6 = {"apple", "banana", "cherry"};set7 = {"google", "microsoft", "apple"}
+set9 = set6.difference(set7); print(set9)
+set9 = set6 - set7; print(set9)
+# difference_update()
+set6.difference_update(set7); print(set6)
+# symmetric_diference() or ' ^ '
+set6 = {"apple", "banana", "cherry"};set7 = {"google", "microsoft", "apple"}
+set10 = set6.symmetric_difference(set7); print(set10)
+set10 = set6 ^ set7; print(set10)
+# symmetric_difference_update()
+set6.symmetric_difference_update(set7);print(set6)
+
+# frozenset
+x = frozenset({"apple", "banana", "cherry"})
+print(x);print(type(x))
+
+
+# dictionary
+dict1 = {"brand": "Ford","model": "Mustang","year": 1964}
+print(dict1);print(type(dict1));print(dict1["brand"]); print(len(dict1))
+# duplicate: override duplicate on already exist item
+dict2 = {"brand": "Ford","model": "Mustang","year": 1964,"year":2020}
+print(dict2); print(type(dict2))
+# dict() constractor
+dict3 = dict(name = "John", age = 36, country = "Norway"); print(dict3)
+# access item
+x = dict3["name"];print(x)
+x122 = dict3.get("name");print(x122)
+# keys()
+y112 = dict3.keys(); print(y112)
+# values()
+y122 = dict3.values(); print(y122)
+# item(s)
+y211 = dict3.items(); print(y211)
+# change items
+dict3["name"] = "python"; print(dict3)
+# update()
+dict3.update({"model":121}); print(dict3)
+# pop() remove with spcefic key name
+dict3.pop("model"); print(dict3)
+# popitem() remove random item
+dict3.popitem(); print(dict3)
+del dict3["name"]; print(dict3)
+# clear() - give empty dict
+dict3.clear(); print(dict3)
+# copy()
+dict2 = {"brand": "Ford","model": "Mustang","year": 2001,"year":2000}
+mydict = dict2.copy(); print(mydict)
+# dict()
+mydict1 = dict(dict2); print(mydict1)
+# nested dict
+myfamily = {"child1" : {"name" : "Emil","year" : 2004},
+  "child2" : {"name" : "Tobias","year" : 2007},
+  "child3" : {"name" : "Linus","year" : 2011}}
+print(myfamily)
+# Access Items in Nested Dictionaries
+print(myfamily["child2"]["name"])
+
+
