@@ -139,3 +139,13 @@ print(x is y)   # True (same object in memory)```
 --> Access Items in Nested Dictionaries
 
 
+--> if condition: , variable in condition
+--> elif condition: use when if condition false then check elif condition
+--> if condtion write one time but elif coondition write many time as per condition.
+--> else condition: run when if and elif condition are fales its no any give condition arguments
+--> shorthand if condition
+--> logical operators
+--> nested if condition: if condition inside if conditon and we add multiple levels of nested if condtion
+--> pas statement: use if
+
+
