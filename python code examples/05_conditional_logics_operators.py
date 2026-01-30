@@ -5,7 +5,7 @@
 # less than <
 # greater than >
 # less than and equal to  <=
-# greater than and eqaul to >=
+# greater than and equal to >=
 
 # is 4 equal to 4
 print(4==4)

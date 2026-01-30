@@ -1,4 +1,4 @@
-# Conversion types: w can change types of variable means that when create variable its type is integer, then change in float 
+# Conversion types: we can change types of variable means that when create variable its type is integer, then change in float 
 
 x = 10     # integer number
 y = 10.3   # floating number

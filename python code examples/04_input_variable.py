@@ -4,7 +4,7 @@ a = input("Enter the number:")
 print(a)
 
 
-name  = input("Enter your name her:")
+name  = input("Enter your name here:")
 greeting = "Hello!"
 print(greeting, name)
 print("Hello!,", name)
@@ -21,7 +21,7 @@ print(greeting, name1, "You are still young.")
 # Body mass index (BMI),  input weight , height,
 # calculate BMI
 
-height = float(input("whta is yoyr height?" ))
+height = float(input("whta is your height?" ))
 weight = float(input("what is your weight? "))
 name = input("what is your name: ")
 

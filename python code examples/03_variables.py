@@ -11,7 +11,7 @@ print(type(y))
 #  Rules to assing a variable:
 #  1- variable should contains letters, numbers or underscores
 #  2- do not start with numbers
-#  3- spaces are nit allowed
+#  3- spaces are not allowed
 #  4- do not use keywords used in functions like (break, mean, media, test, print, type etc)
 #  5- short and descriptive
 #  6- case senstivity ( lowercase, uppercase letters lower case letters should be used)
